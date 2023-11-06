@@ -1,0 +1,336 @@
+  body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000;
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: #000;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    margin-right: 20px;
+    color: #555;
+  }
+
+  #navbarNav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #FF5F6D;
+  }
+  
+  .navbar img {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+  }
+  
+  #hero {
+    font-family: "Inter", sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/img/hero-background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    color: #fff;
+    max-width: 800px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content .btn {
+    background-color: #FF5F6D;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-content .btn:hover {
+    background-color: #E6384D;
+  }
+  
+  /* About Section Styles */
+  #about {
+    font-family: "Inter", sans-serif;
+    padding: 80px 0;
+    text-align: center;
+    background-color: #F5F5F5;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  
+  .about-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Games Section Styles */
+  #games {
+    font-family: "Inter", sans-serif;
+    padding: 80px 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .games-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  
+  .games-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Custom Card Styles */
+  .card {
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 0.5rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .card-link {
+    color: #FF5F6D;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .card-link:hover {
+    text-decoration: underline;
+  }
+
+  /* Testimonials Section Styles */
+  #testimonials {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+    font-family: "Inter", sans-serif;
+  }
+
+  #testimonials h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .testimonial {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonial-content {
+    width: 75%;
+  }
+  
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-content img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .testimonial-content h4 {
+    font-size: 18px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    background-color: #fff;
+    padding: 60px 0;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .contact-content {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .contact-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .contact-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 12px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+  }
+  
+  .contact-form button {
+    background-color: #FF5F6D;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+
+  .contact-form button:hover {
+    background-color: #E6384D;
+  }
+  
+  .contact-info h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    font-family: "Inter", sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  #countdown-timer {
+    font-family: "Inter", sans-serif;
+    background-color: #FF5F6D;
+    color: #000;
+    padding: 20px 0 1px 0;
+    text-align: center;
+  }
+  
+  #countdown-timer p {
+    font-size: 18px;
+  }
+  
+  #timer {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+
+
+  .snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(white, white);
+    border-radius: 50%;
+    filter: drop-shadow(0 0 10px white);
+  }

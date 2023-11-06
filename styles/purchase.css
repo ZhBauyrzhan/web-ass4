@@ -1,0 +1,167 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #000;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  margin-right: 20px;
+  color: #555;
+}
+
+#navbarNav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FF5F6D;
+}
+
+.navbar img {
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+}
+
+#game-details {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  font-family: "Inter", sans-serif;
+}
+
+.game-details {
+  padding-top: 15px;
+}
+
+table {
+  max-width: 75%;
+  margin: 50px 80px;
+}
+
+td {
+  padding: 0 40px;
+}
+
+#get-game {
+  width: 50%;
+}
+
+.purchase-button {
+  margin-top: 10px;
+  width: 25%;
+}
+
+.btn {
+  font-family: "Inter", sans-serif;
+  background-color: #FF5F6D;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #E6384D;
+}
+
+#recommended-games .col-lg-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 50px auto;
+}
+
+#recommended-games .container {
+  text-align: center;
+}
+
+#recommended-games {
+  font-family: "Inter", sans-serif;
+}
+
+
+
+/* Custom Card Styles */
+.card {
+  width: 80%;
+  font-family: "Inter", sans-serif;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 0.5rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #555;
+}
+
+.card-link {
+  color: #FF5F6D;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
